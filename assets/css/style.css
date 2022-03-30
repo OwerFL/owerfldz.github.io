@@ -1125,27 +1125,28 @@ footer ul li a.active {
 }
 
 .portfolio{
-  padding-top: 40px;
+  padding-top: 30px;
   text-align: center;
   height: 100px;
 }
 #button{
-    color: #fff;
+    color: black;
+    background: rgba(255, 255, 255, 0.5);
     text-decoration: none;
-    width: 150px;
-    height: 40px;
+    width: 200px;
+    height: 50px;
     background: rgba(255, 255, 255, 0.5);
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.05);
     backdrop-filter: blur(1rem);
     text-align: center;
-    padding: 10px;
+    padding-top: 15px;
     border-radius: 20px;
 }
-#button-top:hover {
+#button:hover {
   background: rgba(255, 255, 255, 0.8);
 }
 
-#button::after {
+#button:after {
   /* content: "\f077"; */
   font-family: FontAwesome;
   font-weight: normal;
