@@ -5,7 +5,7 @@ html {
 }
 
 * {
-  font-family: "Arial";
+  font-family: "Poppins";
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -152,28 +152,6 @@ section {
     width: calc(100% - 0px);
   }
 }
-
-@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-  header {
-    position: fixed;
-    top: 10px;
-    /* right: 20px;
-    left: 20px; */
-    padding: 20px 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.4);
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.05);
-    border-radius: 1rem;
-    backdrop-filter: blur(1rem);
-    -webkit-backdrop-filter: blur(1rem);
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-    z-index: 90;
-    width: calc(100% - 180px);
-  }
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
   header {
