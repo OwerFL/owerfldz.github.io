@@ -1167,6 +1167,7 @@ footer ul li a.active {
 }
 
 .contan {
+  font-size: 12px;
   display: flex;
   width: 100%;
   padding: 4% 2%;
@@ -1191,7 +1192,7 @@ footer ul li a.active {
 }
 
 .box > span {
-  font-size: 3.8vh;
+  font-size: 2.8vh;
   display: block;
   text-align: center;
   height: 10vh;
